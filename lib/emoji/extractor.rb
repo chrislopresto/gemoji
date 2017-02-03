@@ -3,7 +3,7 @@ require 'fileutils'
 
 module Emoji
   class Extractor
-    EMOJI_TTF = "/System/Library/Fonts/Apple Color Emoji.ttc"
+    EMOJI_TTF = "/System/Library/Fonts/Apple Color Emoji.ttf"
 
     attr_reader :size, :images_path
 
